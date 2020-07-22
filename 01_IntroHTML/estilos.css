@@ -1,0 +1,42 @@
+/* selector {
+    propierdad: valor;
+} */
+
+
+/* ---------------- Selector de etiqueta--------------- */
+* {
+    background-color: #363438;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    color: #ffffff;
+}
+
+/* --------------------- Selctor clase-------------- */
+
+.img1 {
+    width: 500px;
+}
+
+.img2 {
+    width: 100px;
+}
+
+.azul{
+    color: blue;
+}
+
+.rojo {
+    color: rgb(255, 0, 0);
+}
