@@ -1,0 +1,15 @@
+h1 {
+
+    border: black 2px solid;
+
+}
+p {
+    border: blue 2px solid;
+    width: 500px;
+}
+a {
+    display: inline;
+    border: rebeccapurple 2px solid;
+    width: 500px;
+    height: 200px;
+}
