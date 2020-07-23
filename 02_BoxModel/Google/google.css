@@ -1,0 +1,51 @@
+.nav{
+    /* border: 1px solid black; */
+    padding-left: 1100px;
+}
+
+.main{
+    /* border: 1px solid black; */
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 150px;
+}
+.iconos{
+    margin-top: 10px;
+    display: inline-block;
+}
+.navIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    
+}
+.linkNav{
+    display: inline-block;
+}
+.logo{
+    width: 272px;
+    margin: auto;
+}
+
+.circule {
+    border-radius: 50%;
+}
+
+.botones{
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+input{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+button{
+    /* border: 1px solid black; */
+    height: 30px;
+}
