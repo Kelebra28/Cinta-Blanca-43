@@ -13,15 +13,21 @@ h1 {
     border: black 2px solid;
 }
 h2 {
+    display: inline-block;
     border: #690372 2px solid;
          /*   y     x */
-    margin: 20px 100px;
+    margin: 20px 230px;
     /* padding: ; */
+    width: 200px;
+    height: 50px;
 }
 h3 {
+    display: inline-block;
     border: #157203 2px solid;
     /*     Arriba Derecha  Abajo  Izquierda */
-    margin: 50px   80px    40px   20px;
+    margin: 50px   80px    40px   170px;
+    width: 200px;
+    height: 50px;
 }
 
 p {
@@ -33,4 +39,13 @@ a {
     border: rebeccapurple 2px solid;
     width: 500px;
     height: 200px;
+}
+
+div {
+    border: #dd0760 2px solid;
+    padding-left: 1048px;
+}
+h4{
+    display: inline-block;
+    border: #071cdd 2px solid;
 }
