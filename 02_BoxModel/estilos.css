@@ -1,14 +1,35 @@
 h1 {
+    /* margin es la distancia del borde hacia afuera */
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+    /* paddig es la distancia de el borde hacia adentro */
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-right: 50px;
+    padding-bottom: 80px;
 
     border: black 2px solid;
-
 }
+h2 {
+    border: #690372 2px solid;
+         /*   y     x */
+    margin: 20px 100px;
+    /* padding: ; */
+}
+h3 {
+    border: #157203 2px solid;
+    /*     Arriba Derecha  Abajo  Izquierda */
+    margin: 50px   80px    40px   20px;
+}
+
 p {
     border: blue 2px solid;
     width: 500px;
+    margin: 100px;
 }
 a {
-    display: inline;
     border: rebeccapurple 2px solid;
     width: 500px;
     height: 200px;
