@@ -4,9 +4,11 @@
     /* iniciamos a usar flexbox */
     display: flex;
     /* horizontalmente o eje x  */
-    justify-content: space-around;
+    justify-content: flex-end;
     /* verticalmente o eje y  */
-    align-items: center;
+    align-items: flex-end;
+    /* direccion de mis elementos */
+    flex-direction: column;
 }
 
 .hijo{
