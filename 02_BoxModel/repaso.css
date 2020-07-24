@@ -1,0 +1,17 @@
+.contenedor {
+    border: 2px rgb(5, 165, 59) solid;
+    padding-left: 400px;
+}
+.cajita1 {
+    display: inline-block;
+    border: 2px black solid;
+    width: 200px;
+    height: 200px;
+
+}
+.cajita2 {
+    display: inline-block;
+    border: 2px red solid;
+    width: 200px;
+    height: 200px;
+}
