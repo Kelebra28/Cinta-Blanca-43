@@ -1,0 +1,50 @@
+body {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.padre {
+    border: solid red 2px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo {
+    border: solid black 2px;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.madre {
+    border: solid blue 2px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hija {
+    border: solid black 2px;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-items: center;
+}
+
+.nieto {
+    border: solid rgb(231, 13, 213) 2px;
+    width: 20%;
+    height: 20%;
+}
