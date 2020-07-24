@@ -1,0 +1,16 @@
+.padre{
+    height: 700px;
+    border: solid black 2px;
+    /* iniciamos a usar flexbox */
+    display: flex;
+    /* horizontalmente o eje x  */
+    justify-content: space-around;
+    /* verticalmente o eje y  */
+    align-items: center;
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    border: solid blue 2px;
+}
