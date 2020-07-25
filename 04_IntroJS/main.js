@@ -21,7 +21,7 @@ var objeto = {} // ---> llaves
 
 var num1 = 100
 var num2 = 500
-// salidas o outputs
+//--------- salidas o outputs -----------
 
 console.log(num1 + num2)
 
@@ -35,3 +35,10 @@ var saludo = 'Hola'
 var sensei = 'kelebra'
 
 console.log(saludo + ' ' + sensei)
+
+
+// --------------------- entradas o inputs--------
+//             prompt me permite  que el usuario ingrese datos                    
+var pregunta = prompt('Ingresa tu nombre')
+
+console.log(pregunta)
