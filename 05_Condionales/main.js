@@ -50,3 +50,14 @@ if(num === 10){
 // Le van a preguntar al usuario que les de un numero.
 // Van a decir si este numero es par o es impar.
 // modulo -> % <-
+
+
+var ask_numer = Number(prompt('Dime cualquier numero'))
+
+if(ask_numer % 2 === 0 ){
+    console.log(ask_numer + ' es par')
+}else if (ask_numer % 2 === 1){
+    console.log(ask_numer + ' es impar')
+}else{
+    console.error('Datos incorrectos')
+}
