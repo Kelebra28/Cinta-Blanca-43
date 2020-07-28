@@ -24,7 +24,7 @@ var num = 'Hola'
 if(num === 10){
     console.log('Es verdadero')
 }else{
-    console.log('Es falso')
+    // console.log('Es falso')
 }
 
 
@@ -52,12 +52,35 @@ if(num === 10){
 // modulo -> % <-
 
 
-var ask_numer = Number(prompt('Dime cualquier numero'))
+// var ask_numer = Number(prompt('Dime cualquier numero'))
 
-if(ask_numer % 2 === 0 ){
-    console.log(ask_numer + ' es par')
-}else if (ask_numer % 2 === 1){
-    console.log(ask_numer + ' es impar')
-}else{
-    console.error('Datos incorrectos')
-}
+// if(ask_numer % 2 === 0 ){
+//     console.log(ask_numer + ' es par')
+// }else if (ask_numer % 2 === 1){
+//     console.log(ask_numer + ' es impar')
+// }else{
+//     console.error('Datos incorrectos')
+// }
+
+// --------- Operadores Logicos
+
+
+// -> No se puede conducir  eres menor de 15 y mayor 81
+// -> 16 y 17 puedes sacar el persimoso 
+// -> 18 - 70 puedes conducir
+
+// var edad = Number(prompt('Ingresa tu edad'))
+
+// if(edad >= 18 && edad <= 80 ){
+//     console.log('Puedes conducir')
+// }else if (edad === 16 || edad === 17 ){
+//     console.log('Puedes sacar el permiso para cunducir')
+// }else if (edad <= 15 || edad >= 81  ){
+//     console.log('No puedes conducir')
+// }else{
+//     console.error('Datos incorrectos')
+// }
+
+// --------- Challege Piedra Papel o Tijera --------
+
+
