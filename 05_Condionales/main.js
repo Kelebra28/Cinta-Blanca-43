@@ -83,4 +83,24 @@ if(num === 10){
 
 // --------- Challege Piedra Papel o Tijera --------
 
+// Van a hacer el juego de piedra pepel o tijera
+// 2 jugadores --> en la consola mostrar que jugador gano
 
+var p1 = prompt('Que eliges? Piedra,Papel o Tijera').toLowerCase()
+var p2 = prompt('Que eliges? Piedra,Papel o Tijera').toLowerCase()
+
+// console.log(p1)
+// console.log(p2)
+
+// toUpperCase() -> todo el texto lo pasa a mayusculas
+// toLoweCase() -> todo el texto lo pasa a misnusculas
+
+if(p1 === p2){
+    console.log('Empate')
+}else if (p1 === 'papel' && p2 === 'piedra' || p1 === 'piedra' && p2 === 'tiejra' || p1 === 'tijera' && p2 === 'papel' ){
+    console.log('Gane jugador 1')
+} else if (p2 === 'papel' && p1 === 'piedra' || p2 === 'piedra' && p1 === 'tijera' || p2 === 'tijera' && p1 === 'papel') {
+    console.log('Gana jugador 2')
+} else {
+    console.error('Datos incorrectos')
+}
