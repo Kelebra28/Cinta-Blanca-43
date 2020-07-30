@@ -1,0 +1,18 @@
+{
+    "nombre": "Ricardo",
+    "direccion": "CDMX",
+    "edad": 22,
+    "telefono": "564654653465",
+    "musica": {
+        "reggeton":{
+            "JBalvin": ["Rojo", "Blanco", "Azul"]
+        },
+        "cumbia": "Los Angeles Azules",
+        "rock": "AC/DC",
+        "metal": {
+            "trash": "XD",
+            "classi": ":P"
+        }
+    },
+    "peliculas": ["Terror", "Accion", "Comedia"]
+}

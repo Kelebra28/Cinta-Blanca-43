@@ -1,0 +1,11 @@
+body{
+    background-color: cadetblue;
+}
+.my-carousel{
+    width: 500px;
+}
+
+.my-img{
+    width: 500px;
+    height: 300px;
+}
