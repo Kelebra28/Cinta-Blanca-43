@@ -6,8 +6,18 @@
 .my-row{
     border: blue 2px solid;
 }
-.item{
+.item1{
     background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+.item2{
+    background-color: rgb(226, 43, 211);
+    width: 100px;
+    height: 100px;
+}
+.item3{
+    background-color: rgb(43, 226, 52);
     width: 100px;
     height: 100px;
 }
