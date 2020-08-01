@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap');
+@import url('./assets/font/');
 
+h2{
+    font-family: 'Suwannaphum', cursive;
+}
 .my-container{
     border: black 2px solid;
 }
