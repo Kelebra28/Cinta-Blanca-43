@@ -61,10 +61,48 @@ alumnos.push("Brisa");
 
 // uso más común
 for(var i = 0; i < alumnos.length; i++){
-    console.log( i + " " +alumnos[i] )
+    // console.log( i + " " +alumnos[i] )
 }
 
 // paradigmas
 // orientado a objetos
 // orientado a funciones
 
+//---------------------------------> Repaso <----------------------------
+// inicio       limite  secuencia
+for(var i = 0; i <= 100; i++){
+    // console.log(i)
+}
+
+//-------> Challenge Final <-------
+// 1 -> 100
+// Si el numero es divisible entre 3 -> Fizz 
+// Si el numero es divisible entre 5 -> Buzz
+// Si el numero es divisible entre 3 y 5 -> FizzBuzz
+
+//---- 👍 -----
+// 0
+// 1
+// 2
+// 3 Fizz
+// 4 
+// 5 Buzz
+// ...
+// 15 Fizbuzz
+
+//----- 🚫 -----
+// 15 fizz
+// 15 buzz
+// 15 fizzbuzz
+
+for(var x = 1; x <= 100; x++ ){
+    if(x % 3 === 0 && x % 5 === 0){
+        console.log(x + ' : fizzbuzz')
+    }else if(x % 5 === 0 ){
+        console.log(x + ' : buzz')
+    }else if(x % 3 === 0){
+        console.log(x + ' : fizz')
+    }else{
+        console.log(x)
+    }   
+}
