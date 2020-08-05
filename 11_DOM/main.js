@@ -12,9 +12,19 @@ const cambio = () => {
     subtitulo.innerHTML = 'Soy el subtitilo midificado desde js ⛓'
     // -> .value: es el texto que ingreso en el input        
     texto.innerHTML = input.value
-    console.log(input)
-    console.log(input.value)
+    // console.log(input) // -> Etiqueta HTML 
+    // console.log(input.value) // -> El texto que el usuario ingresa
 
 }
 
 btn.addEventListener('click', cambio)
+
+
+//-------------------> Challenge <------------------
+// * Usar Bootstrap *
+// Preguntar Nombre
+// Preguntar Direccion
+// Preguntar Telefono
+// Preguntar si quiren pizza con piña o  sin
+// respuestas : si o no
+// -> mostrar las respuestas en una card
