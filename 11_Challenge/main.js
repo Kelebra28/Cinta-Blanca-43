@@ -14,12 +14,24 @@ let respuestaPizza = document.getElementById('respuestaPizza')
 
 const ordenar = () => {
 
-
     respuestaNombre.innerHTML = 'Nombre: ' + preguntaNombre.value
     respuestaDireccion.innerHTML = 'Direccion: ' +preguntaDireccion.value
     respuestaTelefono.innerHTML = 'Telefono: ' + preguntaTelefono.value
-    respuestaPizza.innerHTML = 'Piña o sin piña: ' +preguntaPizza.value
+ 
+    let pizzaValue = preguntaPizza.value.toLowerCase()
+    console.log(pizzaValue)
+    if(pizzaValue === 'no'){
+        respuestaPizza.innerHTML = '🥰 Sin piña 🥰'
+    }else if(pizzaValue === 'si'){
+        respuestaPizza.innerHTML = '🤬 Con piña 🤬'
+    }else{
+        respuestaPizza.innerHTML = '🚫 Datos incorrectos 🚫'
+    }
 
 }
 
 btn.addEventListener('click', ordenar)
+
+// Si el usuario dice que "SI" -> :(
+// Si el usuario dice que "NO" -> :)    
+// Maquetar el formulario para que parecezca de una pagina real 
