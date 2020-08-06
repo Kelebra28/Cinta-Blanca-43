@@ -10,6 +10,8 @@ let respuestaNombre = document.getElementById('respuestaNombre')
 let respuestaDireccion = document.getElementById('respuestaDireccion')
 let respuestaTelefono = document.getElementById('respuestaTelefono')
 let respuestaPizza = document.getElementById('respuestaPizza')
+// card
+let card = document.getElementById('card')
 
 
 const ordenar = () => {
@@ -27,6 +29,10 @@ const ordenar = () => {
     }else{
         respuestaPizza.innerHTML = '🚫 Datos incorrectos 🚫'
     }
+
+    //  console.log(card.classList)
+    card.classList.remove('d-none')
+    // console.log(card.classList)
 
 }
 
