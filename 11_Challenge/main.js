@@ -3,17 +3,18 @@ let preguntaNombre = document.getElementById('preguntaNombre')
 let preguntaDireccion = document.getElementById('preguntaDireccion')
 let preguntaTelefono = document.getElementById('preguntaTelefono')
 let preguntaPizza = document.getElementById('preguntaPizza')
-// boton 
+// Boton 
 let btn = document.getElementById('btn')
-// respuestas
+// Respuestas
 let respuestaNombre = document.getElementById('respuestaNombre')
 let respuestaDireccion = document.getElementById('respuestaDireccion')
 let respuestaTelefono = document.getElementById('respuestaTelefono')
 let respuestaPizza = document.getElementById('respuestaPizza')
-// card
+// Card
 let card = document.getElementById('card')
-// img
+// Img
 let imgPizza = document.getElementById('imgPizza')
+
 
 const ordenar = () => {
 
@@ -38,7 +39,6 @@ const ordenar = () => {
     //  console.log(card.classList)
     card.classList.remove('d-none')
     // console.log(card.classList)
-
 }
 
 btn.addEventListener('click', ordenar)
